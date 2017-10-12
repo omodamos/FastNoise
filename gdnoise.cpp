@@ -24,9 +24,8 @@ Noise::Noise() {
 // 	return sqlite3_open(path.utf8().get_data(), &db);
 // }
 
-// void SQLite::_bind_methods() {
-// 	ClassDB::bind_method("open", &SQLite::open);
-	
-// 	BIND_CONSTANT(SQLITE_OK);
-// }
+void Noise::_bind_methods() {
+	// ClassDB::bind_method("open", &Noise::open);
+	// BIND_CONSTANT(NOISE_OK);
+}
 

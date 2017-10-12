@@ -8,7 +8,7 @@
 #include "FastNoise/FastNoise.h"
 
 class Noise : public Reference {
-	GDCLASS(FastNoise,Reference);
+	GDCLASS(Noise,Reference);
 
 protected:
 	static void _bind_methods();
@@ -16,7 +16,7 @@ protected:
 public:
 	Noise();
 	
-	int open(String path);
+	// int open(String path);
 
 private:
 	FastNoise *fn;
